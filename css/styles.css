@@ -5,6 +5,12 @@
   white: var(--WHITE, #fff);
   cloud: var(--CLOUD, #f4f4fd);
 }
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--SLATE, #434455);
+  line-height: 1, 6;
+  background-color: var(--WHITE, #fff);
+}
 a {
   text-decoration: none;
 }
@@ -28,29 +34,24 @@ h3 {
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
 }
-body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  color: var(--NAVY-BLUE, #2e2f42);
-  line-height: 1, 6;
-}
-.web {
+.logo {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1,17;
+  letter-spacing: 0,03em;
   text-transform: uppercase;
 }
-.studio-header {
+.logo-studio {
   color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1,17;
+  letter-spacing: 0,03em;
   text-transform: uppercase;
 }
 .top-line {
@@ -58,8 +59,8 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 1,5;
+  letter-spacing: 0,02em;
 }
 .address {
   color: var(--SLATE, #434455);
