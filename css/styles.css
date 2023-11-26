@@ -55,6 +55,10 @@ a {
 }
 .link {
   text-decoration: none;
+  color: var(--EMMET, #404bbf);
+}
+.address {
+  font-style: normal;
 }
 .top {
   font-size: 16px;
