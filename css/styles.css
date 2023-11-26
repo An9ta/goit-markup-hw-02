@@ -62,6 +62,10 @@ a {
   letter-spacing: 0.02em;
   color: var(--SLATE, #434455);
 }
+.link-top {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-decoration: none;
+}
 .section-first {
   background-color: var(--NAVY-BLUE, #2e2f42);
 }
@@ -82,6 +86,7 @@ a {
   color: var(--WHITE, #fff);
   cursor: pointer;
 }
+
 .section-second-title {
   font-weight: 500;
   font-size: 20px;
@@ -104,6 +109,8 @@ a {
 }
 .section-third-title {
   background-color: var(--CLOUD, #f4f4fd);
+  font-size: 36px;
+  line-height: 1.11;
 }
 .section-fourth {
   background-color: var(--CLOUD, #f4f4fd);
@@ -144,15 +151,17 @@ a {
 .logo-link-two {
   color: var(--CLOUD, #f4f4fd);
 }
-.footer-p {
+.footer-text {
   line-height: 1.5;
   color: var(--CLOUD, #f4f4fd);
   letter-spacing: 0.02em;
 }
 .button-second {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0, 04em;
+  letter-spacing: 0.04em;
+  color: var(--WHITE, #fff);
+  cursor: pointer;
 }
