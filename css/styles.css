@@ -24,6 +24,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .logo-link {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -54,7 +55,6 @@ a {
 }
 .link {
   text-decoration: none;
-  color: var(--EMMET, #404bbf);
 }
 .top {
   font-size: 16px;
