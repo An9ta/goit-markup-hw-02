@@ -1,22 +1,22 @@
 :root {
-  --iris: var(--IRIS, #4d5ae5);
-  --navy-blue: var(--NAVY-BLUE, #2e2f42);
-  --slate: var(--SLATE, #434455);
-  --white: var(--WHITE, #fff);
-  --cloud: var(--CLOUD, #f4f4fd);
-  --emmet: var(--EMMET, #404bbf);
+  --logo-main-color: #4d5ae5;
+  --background-color-section: #2e2f42;
+  --section-heading-color: #434455;
+  --background-color: #fff;
+  --footer-color: #f4f4fd;
+  --link-hover-focus: #404bbf;
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--SLATE, #434455);
+  color: var(--section-heading-color);
   line-height: 1 6;
-  background-color: var(--WHITE, #fff);
+  background-color: var(--background-color);
 }
 a {
   text-decoration: none;
 }
 .logo {
-  color: var(--IRIS, #4d5ae5);
+  color: var(--logo-main-color);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -27,7 +27,7 @@ a {
   text-decoration: none;
 }
 .logo link {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--background-color-section);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -37,8 +37,12 @@ a {
   text-transform: uppercase;
   text-decoration: none;
 }
+span {
+  color: var(--background-color-section);
+}
+
 .list {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--background-color-section);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -51,11 +55,11 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--background-color-section);
 }
 .link {
   text-decoration: none;
-  color: var(--EMMET, #404bbf);
+  color: var(--link-hover-focus);
 }
 .address {
   font-style: normal;
@@ -64,33 +68,35 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--SLATE, #434455);
+  color: var(--section-heading-color);
 }
 .link-top {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--background-color-section);
   text-decoration: none;
 }
 .section-first {
-  background-color: var(--NAVY-BLUE, #2e2f42);
+  background-color: var(--background-color-section);
 }
 .section-first-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--WHITE, #fff);
+  color: var(--background-color);
 }
 .button-first:hover {
-  background-color: var(--IRIS, #4d5ae5);
+  background-color: var(--logo-main-color);
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--WHITE, #fff);
+  color: var(--background-color);
   cursor: pointer;
 }
-.button-first:hover {
+.button-first:focus {
+  background-color: var(--link-hover-focus);
+  cursor: pointer;
 }
 .section-second-title {
   font-weight: 500;
@@ -102,7 +108,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--SLATE, #434455);
+  color: var(--section-heading-color);
 }
 .section-third {
   font-size: 36px;
@@ -110,29 +116,29 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--background-color-section);
 }
 .section-third-title {
-  background-color: var(--CLOUD, #f4f4fd);
+  background-color: var(--footer-color);
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
 }
 .section-fourth {
-  background-color: var(--CLOUD, #f4f4fd);
+  background-color: var(--footer-color);
 }
 .section-fourth-title {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--background-color-section);
   text-align: center;
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .section-fourth-text {
-  color: var(--SLATE, #434455);
+  color: var(--section-heading-color);
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -142,9 +148,12 @@ a {
   letter-spacing: 0.32px;
 }
 .img {
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--background-color-section);
 }
 .studio-footer {
-  color: var(--CLOUD, #f4f4fd);
+  color: var(--footer-color);
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -154,14 +163,14 @@ a {
   text-transform: uppercase;
 }
 .footer {
-  background-color: var(--NAVY-BLUE, #2e2f42);
+  background-color: var(--background-color-section);
 }
 .logo link two {
-  color: var(--CLOUD, #f4f4fd);
+  color: var(--footer-color);
 }
 .footer-text {
   line-height: 1.5;
-  color: var(--CLOUD, #f4f4fd);
+  color: var(--footer-color);
   letter-spacing: 0.02em;
 }
 .button-second {
@@ -170,6 +179,6 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--WHITE, #fff);
+  color: var(--background-color);
   cursor: pointer;
 }
