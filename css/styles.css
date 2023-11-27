@@ -2,7 +2,7 @@
   --logo-main-color: #4d5ae5;
   --background-color-section: #2e2f42;
   --section-heading-color: #434455;
-  --background-color: #fff;
+  --background-color: #ffffff;
   --footer-color: #f4f4fd;
   --link-hover-focus: #404bbf;
 }
@@ -191,4 +191,19 @@ span {
 }
 .logo-span {
   color: var(--footer-color);
+}
+.all {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--logo-main-color);
+  background-color: var(--footer-color);
+}
+.all-both:focus,
+.all-both:hover {
+  color: var(--background-color);
+  background-color: var(--link-hover-focus);
+  cursor: pointer;
 }
