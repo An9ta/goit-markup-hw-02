@@ -26,7 +26,7 @@ a {
   text-transform: uppercase;
   text-decoration: none;
 }
-.logo-link {
+.logo link {
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -80,7 +80,7 @@ a {
   letter-spacing: 0.02em;
   color: var(--WHITE, #fff);
 }
-.button-first {
+.button-first:hover {
   background-color: var(--IRIS, #4d5ae5);
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -90,7 +90,8 @@ a {
   color: var(--WHITE, #fff);
   cursor: pointer;
 }
-
+.button-first:hover {
+}
 .section-second-title {
   font-weight: 500;
   font-size: 20px;
@@ -115,6 +116,7 @@ a {
   background-color: var(--CLOUD, #f4f4fd);
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
 }
 .section-fourth {
   background-color: var(--CLOUD, #f4f4fd);
@@ -139,6 +141,8 @@ a {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
+.img {
+}
 .studio-footer {
   color: var(--CLOUD, #f4f4fd);
   font-family: Raleway;
@@ -152,7 +156,7 @@ a {
 .footer {
   background-color: var(--NAVY-BLUE, #2e2f42);
 }
-.logo-link-two {
+.logo link two {
   color: var(--CLOUD, #f4f4fd);
 }
 .footer-text {
