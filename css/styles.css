@@ -37,10 +37,18 @@ a {
   text-transform: uppercase;
   text-decoration: none;
 }
+.link-focus:focus {
+  color: var(--logo-main-color);
+}
+.top-both:focus {
+  color: var(--background-color-section);
+}
+.top-both:hover {
+  color: var(--link-hover-focus);
+}
 span {
   color: var(--background-color-section);
 }
-
 .list {
   color: var(--background-color-section);
   font-size: 16px;
@@ -86,6 +94,15 @@ span {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--background-color);
+}
+.button-first {
+  background-color: var(--logo-main-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--background-color);
 }
 .button-first:hover {
@@ -164,7 +181,7 @@ span {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
