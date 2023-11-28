@@ -40,6 +40,9 @@ p {
   text-transform: uppercase;
   text-decoration: none;
 }
+.top-focus:focus {
+  color: var(--background-color-section);
+}
 a:focus {
   color: var(--link-hover-focus);
 }
