@@ -144,6 +144,7 @@ span {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 .section-fourth {
   background-color: var(--footer-color);
@@ -225,4 +226,7 @@ span {
   color: var(--background-color);
   background-color: var(--link-hover-focus);
   cursor: pointer;
+}
+.button-first-hover {
+  background-color: var(--link-hover-focus);
 }
