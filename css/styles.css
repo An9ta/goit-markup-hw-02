@@ -9,7 +9,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--section-heading-color);
-  line-height: 1 6;
+  line-height: 1.6;
   background-color: var(--background-color);
 }
 a {
@@ -81,6 +81,7 @@ span {
 .link-both:focus,
 .link-both:hover {
   color: var(--background-color-section);
+  text-decoration: none;
 }
 .address {
   font-style: normal;
@@ -115,7 +116,7 @@ span {
   color: var(--background-color);
 }
 .button-first:hover {
-  background-color: var(--logo-main-color);
+  background-color: var(--link-hover-focus);
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -139,6 +140,7 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--section-heading-color);
+  background-color: var(--background-color);
 }
 .section-third {
   font-size: 36px;
@@ -154,6 +156,9 @@ span {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+}
+.section-third-title-focus:focus {
+  color: var(--background-color-section);
 }
 .section-fourth {
   background-color: var(--footer-color);
