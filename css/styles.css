@@ -37,6 +37,9 @@ a {
   text-transform: uppercase;
   text-decoration: none;
 }
+a {
+  color: var(--link-hover-focus);
+}
 .link-focus:focus {
   color: var(--logo-main-color);
 }
