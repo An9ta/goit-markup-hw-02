@@ -67,13 +67,13 @@ span {
 .address {
   font-style: normal;
 }
-.top {
+.boolean {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--background-color-section);
 }
-.link-top {
+.link-boolean {
   color: var(--background-color-section);
   text-decoration: none;
 }
@@ -245,8 +245,8 @@ span {
 .section-header {
   color: var(--background-color-section);
 }
-.top:hover,
-.top:focus {
+.boolean:hover,
+.boolean:focus {
   color: var(--link-hover-focus);
 }
 .address-link {
