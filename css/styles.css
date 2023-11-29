@@ -242,7 +242,7 @@ span {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.section-header:focus {
+.section-header {
   color: var(--background-color-section);
 }
 .top:hover,
