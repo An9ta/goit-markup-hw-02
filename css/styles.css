@@ -245,3 +245,6 @@ span {
 .section-h-focus:focus {
   color: var(--background-color-section);
 }
+top:focus {
+  color: var(--background-color-section);
+}
