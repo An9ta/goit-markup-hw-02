@@ -242,7 +242,7 @@ span {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.section-header {
+.section-header:focus {
   color: var(--background-color-section);
 }
 .top:hover,
@@ -257,5 +257,5 @@ span {
 }
 .address-link:focus,
 .address-link:hover {
-  color: var(link-hover-focus);
+  color: var(--link-hover-focus);
 }
