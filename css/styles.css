@@ -256,6 +256,6 @@ span {
   color: var(--section-heading-color);
 }
 .address-link:focus,
-.address-link.hover {
-  color: var(--section-heading-color);
+.address-link:hover {
+  color: var(link-hover-focus);
 }
