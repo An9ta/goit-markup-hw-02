@@ -45,7 +45,7 @@ p {
   color: var(--background-color-section);
 }
 a:focus {
-  color: var(--link-hover-focus);
+  color: var(--background-color-section);
 }
 a:hover {
   color: var(--link-hover-focus);
