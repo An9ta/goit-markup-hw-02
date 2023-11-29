@@ -79,7 +79,6 @@ span {
 }
 .link {
   text-decoration: none;
-  color: var(--link-hover-focus);
 }
 .link-both:focus,
 .link-both:hover {
@@ -195,6 +194,7 @@ span {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--background-color-section);
+  background-color: var(--background-color);
 }
 .studio-footer {
   color: var(--footer-color);
@@ -253,4 +253,7 @@ span {
 }
 .button-first-hover {
   background-color: var(--link-hover-focus);
+}
+.list-text {
+  color: var(--section-heading-color);
 }
