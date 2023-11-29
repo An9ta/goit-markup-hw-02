@@ -247,5 +247,5 @@ span {
 }
 .top:hover,
 .top:focus {
-  color: var(--background-color-section);
+  color: var(--link-hover-focus);
 }
