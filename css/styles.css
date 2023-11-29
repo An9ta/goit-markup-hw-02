@@ -231,7 +231,7 @@ span {
   letter-spacing: 0.02em;
   color: var(--section-heading-color);
 }
-.header-list focus:focus {
+.header-list-focus:focus {
   color: var(--background-color-section);
 }
 .logo-span {
@@ -257,4 +257,10 @@ span {
 }
 .list-text {
   color: var(--section-heading-color);
+}
+.header-list-focus {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
