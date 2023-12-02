@@ -44,7 +44,7 @@ span {
   color: var(--background-color-section);
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style: none;
@@ -98,12 +98,6 @@ span {
 }
 .button-first:hover {
   background-color: var(--link-hover-focus);
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--background-color);
   cursor: pointer;
 }
 .button-first:focus {
@@ -122,6 +116,7 @@ span {
   letter-spacing: 0.02em;
   color: var(--section-heading-color);
   background-color: var(--background-color);
+  font-weight: 400;
 }
 .section-third {
   font-size: 36px;
@@ -138,52 +133,16 @@ span {
   text-align: center;
   letter-spacing: 0.02em;
 }
-.section-third-title-focus:focus {
-  color: var(--background-color-section);
-}
 .section-fourth {
   background-color: var(--footer-color);
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
-.section-fourth-title {
-  color: var(--background-color-section);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-}
-.section-fourth-text {
-  color: var(--section-heading-color);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
-}
-.ection-third-title-focus {
-  color: var(--background-color-section);
 }
 .img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--background-color-section);
   background-color: var(--background-color);
-}
-.studio-footer {
-  color: var(--footer-color);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 .footer {
   background-color: var(--background-color-section);
@@ -211,6 +170,10 @@ span {
 }
 .header-list-focus {
   color: var(--background-color-section);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .logo-span {
   color: var(--footer-color);
@@ -235,12 +198,7 @@ span {
 }
 .list-text {
   color: var(--section-heading-color);
-}
-.header-list-focus {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  font-weight: 400;
 }
 .array {
   color: var(--background-color-section);
