@@ -77,6 +77,9 @@ span {
   color: var(--background-color-section);
   text-decoration: none;
 }
+.boolean {
+  font-weight: 500;
+}
 .section-first {
   background-color: var(--background-color-section);
 }
