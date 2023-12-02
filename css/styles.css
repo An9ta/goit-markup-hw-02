@@ -58,6 +58,7 @@ span {
 }
 .link {
   text-decoration: none;
+  font-weight: 500;
 }
 .link-both:focus,
 .link-both:hover {
